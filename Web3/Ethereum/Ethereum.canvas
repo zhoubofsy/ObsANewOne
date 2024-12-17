@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"158251d8f84a6212","type":"text","text":"原理","x":320,"y":-75,"width":87,"height":60,"color":"5"},
+		{"id":"cc0daad9ecb96276","type":"text","text":"solidity","x":-20,"y":10,"width":104,"height":50,"color":"5"},
+		{"id":"9704c596e6c2c21b","type":"text","text":"Ethereum","x":-240,"y":-45,"width":125,"height":50,"color":"3"},
+		{"id":"d0ba39d0b0b08251","type":"text","text":"ERC","x":-380,"y":-100,"width":84,"height":55,"color":"4"},
+		{"id":"3083f5954c2e7b0e","type":"text","text":"ERC-20","x":-580,"y":-185,"width":120,"height":55,"color":"4"},
+		{"id":"251b458db20e8f9c","type":"text","text":"ERC-721","x":-580,"y":-70,"width":120,"height":55,"color":"4"},
+		{"id":"b346f4c27306e887","type":"file","file":"Web3/Ethereum/Solidity/call、staticcall、delegatecall使用.md","x":472,"y":-389,"width":508,"height":50},
+		{"id":"0249c45fc2f4536b","type":"file","file":"Web3/Ethereum/Solidity/创建管理合约(create and new and create2).md","x":472,"y":-520,"width":608,"height":50},
+		{"id":"217c0a96cefaf18f","type":"file","file":"Web3/Ethereum/Solidity/ABI格式和使用.md","x":526,"y":35,"width":250,"height":50},
+		{"id":"bca1bbd68a9401b5","type":"file","file":"Web3/Ethereum/Solidity/Solidity中的存储布局和内存布局.md","x":532,"y":-75,"width":473,"height":55},
+		{"id":"a4238fe53d390808","type":"file","file":"Web3/Ethereum/Solidity/solidity编程安全.md","x":347,"y":160,"width":271,"height":50},
+		{"id":"9b5197d5267cbea3","type":"file","file":"Web3/Ethereum/Solidity/solidity合约中如何减少gas消耗.md","x":347,"y":300,"width":459,"height":50},
+		{"id":"18c5c33dceb523d3","type":"text","text":"基本用法","x":228,"y":-339,"width":119,"height":60,"color":"5"},
+		{"id":"e022f9a2b9830bca","type":"file","file":"Web3/Ethereum/Solidity/Solidity部署和调用原理.md","x":510,"y":-190,"width":370,"height":50}
+	],
+	"edges":[
+		{"id":"7925174b74c79d5d","fromNode":"9704c596e6c2c21b","fromSide":"right","toNode":"cc0daad9ecb96276","toSide":"left"},
+		{"id":"02f9b87a5c4bf2f4","fromNode":"cc0daad9ecb96276","fromSide":"right","toNode":"18c5c33dceb523d3","toSide":"left"},
+		{"id":"46bcc3ea28d75119","fromNode":"18c5c33dceb523d3","fromSide":"right","toNode":"0249c45fc2f4536b","toSide":"left"},
+		{"id":"d79ab5c95a799950","fromNode":"158251d8f84a6212","fromSide":"right","toNode":"bca1bbd68a9401b5","toSide":"left"},
+		{"id":"cda7f0d5ae9fc6c6","fromNode":"cc0daad9ecb96276","fromSide":"right","toNode":"a4238fe53d390808","toSide":"left"},
+		{"id":"09731ae7e0ac5178","fromNode":"cc0daad9ecb96276","fromSide":"right","toNode":"158251d8f84a6212","toSide":"left"},
+		{"id":"25d3211c2535c8d6","fromNode":"cc0daad9ecb96276","fromSide":"right","toNode":"9b5197d5267cbea3","toSide":"left"},
+		{"id":"05d7b317bf0940f1","fromNode":"18c5c33dceb523d3","fromSide":"right","toNode":"b346f4c27306e887","toSide":"left"},
+		{"id":"bf127210a2dacc01","fromNode":"9704c596e6c2c21b","fromSide":"left","toNode":"d0ba39d0b0b08251","toSide":"right"},
+		{"id":"64008f75a5797357","fromNode":"d0ba39d0b0b08251","fromSide":"left","toNode":"3083f5954c2e7b0e","toSide":"right"},
+		{"id":"e5ff46af686b5371","fromNode":"d0ba39d0b0b08251","fromSide":"left","toNode":"251b458db20e8f9c","toSide":"right"},
+		{"id":"0d846a4f566b056e","fromNode":"158251d8f84a6212","fromSide":"right","toNode":"e022f9a2b9830bca","toSide":"left"},
+		{"id":"ad5a0d6d071aac77","fromNode":"158251d8f84a6212","fromSide":"right","toNode":"217c0a96cefaf18f","toSide":"left"}
+	]
+}

@@ -1,0 +1,1 @@
+详细请见：https://zhoubofsy.github.io/2024/12/09/blockchain/ethereum/solidity-state-layout/

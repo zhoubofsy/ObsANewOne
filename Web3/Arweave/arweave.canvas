@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"6bca201e11c0b125","x":-125,"y":-30,"width":125,"height":60,"type":"text","text":"Arweave"},
+		{"id":"5dd967cdb4723146","x":141,"y":-123,"width":199,"height":50,"type":"text","text":"接口及使用方法"},
+		{"id":"9abc1b853824ae4d","x":429,"y":-197,"width":250,"height":60,"type":"text","text":"接口标准"},
+		{"id":"064743dc2959f00c","x":442,"y":-93,"width":250,"height":60,"type":"text","text":"golang使用方法"},
+		{"id":"176413920a43f94c","x":424,"y":25,"width":250,"height":60,"type":"text","text":"Solidity使用方法"},
+		{"id":"0302ffdb0e7223bd","x":-534,"y":26,"width":250,"height":60,"type":"text","text":"源代码阅读"}
+	],
+	"edges":[
+		{"id":"fdc84bb44a9d777a","fromNode":"6bca201e11c0b125","fromSide":"right","toNode":"5dd967cdb4723146","toSide":"left"},
+		{"id":"0aa2b03a258deda1","fromNode":"5dd967cdb4723146","fromSide":"right","toNode":"9abc1b853824ae4d","toSide":"left"},
+		{"id":"efe8e4ca585b00d9","fromNode":"5dd967cdb4723146","fromSide":"right","toNode":"064743dc2959f00c","toSide":"left"},
+		{"id":"07a0bd5efad24d12","fromNode":"5dd967cdb4723146","fromSide":"right","toNode":"176413920a43f94c","toSide":"left"},
+		{"id":"8e7d43c43c32c799","fromNode":"6bca201e11c0b125","fromSide":"left","toNode":"0302ffdb0e7223bd","toSide":"right"}
+	]
+}
