@@ -1,17 +1,19 @@
 {
 	"nodes":[
-		{"id":"5d249ba70f6878ac","x":40,"y":-70,"width":140,"height":50,"type":"text","text":"接口及使用"},
-		{"id":"c822dda1f96fc35c","x":-125,"y":-20,"width":85,"height":50,"type":"text","text":"IPFS"},
+		{"id":"fe0d497a01b3d04e","type":"file","file":"Web3/IPFS/IPFS 接口.md","x":301,"y":-200,"width":179,"height":50},
+		{"id":"45ec4c6a11bf9926","type":"file","file":"Web3/IPFS/IPFS环境搭建.md","x":-15,"y":160,"width":250,"height":50},
+		{"id":"5d249ba70f6878ac","type":"text","text":"接口及使用","x":40,"y":-70,"width":140,"height":50},
+		{"id":"c822dda1f96fc35c","type":"text","text":"IPFS","x":-125,"y":-20,"width":85,"height":50},
 		{"id":"1e9c4e1423cb6d20","type":"text","text":"源代码阅读","x":-380,"y":5,"width":140,"height":50},
-		{"id":"66f096b7e3adb196","x":289,"y":-129,"width":250,"height":60,"type":"text","text":"接口标准"},
-		{"id":"358f14d365e88c7c","x":301,"y":-53,"width":250,"height":60,"type":"text","text":"golang 使用方法"},
-		{"id":"fa1a1bef3956628c","x":292,"y":57,"width":250,"height":60,"type":"text","text":"Solidity使用方法"}
+		{"id":"fa1a1bef3956628c","type":"text","text":"Solidity使用方法","x":292,"y":57,"width":250,"height":60},
+		{"id":"3f0b4e6c0c15c6ae","type":"file","file":"Web3/IPFS/IPFS正确打开方式(Golang).md","x":292,"y":-70,"width":408,"height":60}
 	],
 	"edges":[
 		{"id":"1ea713e2538335f9","fromNode":"c822dda1f96fc35c","fromSide":"right","toNode":"5d249ba70f6878ac","toSide":"left"},
 		{"id":"4aa6c6fa79b04532","fromNode":"c822dda1f96fc35c","fromSide":"left","toNode":"1e9c4e1423cb6d20","toSide":"right"},
-		{"id":"4133c3d0ab2038d7","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"66f096b7e3adb196","toSide":"left"},
-		{"id":"c91a970ded7aad43","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"358f14d365e88c7c","toSide":"left"},
-		{"id":"92e120533adf92b7","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"fa1a1bef3956628c","toSide":"left"}
+		{"id":"4133c3d0ab2038d7","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"fe0d497a01b3d04e","toSide":"left"},
+		{"id":"c91a970ded7aad43","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"3f0b4e6c0c15c6ae","toSide":"left"},
+		{"id":"92e120533adf92b7","fromNode":"5d249ba70f6878ac","fromSide":"right","toNode":"fa1a1bef3956628c","toSide":"left"},
+		{"id":"9e92c669953eb726","fromNode":"c822dda1f96fc35c","fromSide":"bottom","toNode":"45ec4c6a11bf9926","toSide":"left"}
 	]
 }

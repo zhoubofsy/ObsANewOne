@@ -1,1 +1,13 @@
-{}
+{
+	"nodes":[
+		{"id":"120ce3f90ac29204","type":"text","text":"Golang","x":-100,"y":-80,"width":105,"height":50,"color":"5"},
+		{"id":"b798907710842d5a","type":"file","file":"Golang/Gin上手.md","x":-300,"y":140,"width":200,"height":60,"color":"4"},
+		{"id":"d23a839f8bcf83a0","type":"file","file":"Golang/当需要用Go调用Ethereum的时候.md","x":5,"y":170,"width":507,"height":80,"color":"6"},
+		{"id":"4ca198de27fe8cc8","type":"file","file":"Web3/IPFS/IPFS正确打开方式(Golang).md","x":-606,"y":-480,"width":406,"height":360}
+	],
+	"edges":[
+		{"id":"c74b6ed3494a2af7","fromNode":"120ce3f90ac29204","fromSide":"bottom","toNode":"b798907710842d5a","toSide":"top"},
+		{"id":"093c9bcf78303697","fromNode":"120ce3f90ac29204","fromSide":"bottom","toNode":"d23a839f8bcf83a0","toSide":"top"},
+		{"id":"8bc2cf428c00c99a","fromNode":"120ce3f90ac29204","fromSide":"left","toNode":"4ca198de27fe8cc8","toSide":"bottom"}
+	]
+}
